@@ -11,8 +11,8 @@ from flask import Flask, request, make_response, render_template
 
 app = Flask(__name__)
 
-slack_token = 'xoxb-506062083639-507463612610-XGpLz3HUZG47Sw1U4YQosCyB'
-slack_client_id = '506062083639.507660839013'
+slack_token = 'xoxb-'
+slack_client_id = ''
 slack_client_secret = '4573128035c6e79e6d7e6a9deea29edc'
 slack_verification = '412BDhY0MC9xb9eE2MAPkRSj'
 sc = SlackClient(slack_token)
